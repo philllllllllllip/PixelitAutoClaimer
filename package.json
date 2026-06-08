@@ -1,7 +1,7 @@
 {
-  "name": "izumiihd-login-bot",
+  "name": "pixelit-bot",
   "version": "1.0.0",
-  "description": "Automated login and daily wheel claim bot for izumiihd.xyz.",
+  "description": "Automated Pixelit login and daily reward bot.",
   "type": "module",
   "scripts": {
     "start": "node bot.js"
