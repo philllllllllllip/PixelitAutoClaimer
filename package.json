@@ -1,0 +1,12 @@
+{
+  "name": "izumiihd-login-bot",
+  "version": "1.0.0",
+  "description": "Automated login and daily wheel claim bot for izumiihd.xyz.",
+  "type": "module",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.1.4"
+  }
+}
