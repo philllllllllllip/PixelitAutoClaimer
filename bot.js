@@ -2,8 +2,8 @@ import dotenv from 'dotenv';
 
 dotenv.config({ override: true });
 
-const USERNAME = process.env.IZUMII_USERNAME || process.env.USERNAME;
-const PASSWORD = process.env.IZUMII_PASSWORD || process.env.PASSWORD;
+const USERNAME = process.env.PIXELIT_USERNAME || process.env.USERNAME;
+const PASSWORD = process.env.PIXELIT_PASSWORD || process.env.PASSWORD;
 const {
   SITE_URL = 'https://izumiihd.xyz',
   POLL_INTERVAL_MS = '30000',
@@ -11,7 +11,7 @@ const {
 } = process.env;
 
 if (!USERNAME || !PASSWORD) {
-  console.error('Missing IZUMII_USERNAME/IZUMII_PASSWORD in .env.');
+  console.error('Missing PIXELIT_USERNAME/PIXELIT_PASSWORD in .env.');
   process.exit(1);
 }
 
